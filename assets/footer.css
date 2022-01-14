@@ -1,0 +1,108 @@
+footer
+{
+	background: #293a4a;
+	height: calc(100%-50px);
+}
+/*social_media_icon_section was start--------------*/
+footer .social_media_icon_section
+{
+	display: flex;
+	justify-content: space-around;
+	padding: 5vh 0vw;
+	background: #293a4a;
+}
+footer .social_media_icon_section .social_media_icon_content
+{
+	display: flex;
+	justify-content: space-around;
+}
+footer .social_media_icon_section .social_media_icon_content>i
+{
+	color: #ffffff;
+	font-size: 2em;
+	padding: 1vh 2vw;
+	text-decoration: none;
+	border-right: 1px solid rgba(255,255,255,.45);
+}
+footer .social_media_icon_section .social_media_icon_content .icon_content
+{
+	padding: 0vh 1vw;
+}
+footer .social_media_icon_section .social_media_icon_content .icon_content>h4
+{
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;	
+	color: whitesmoke;
+}
+footer .social_media_icon_section .social_media_icon_content .icon_content>a
+{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-decoration: none;
+}
+/*social_media_icon_section was close--------------*/
+
+footer .footer_section
+{
+	display: flex;
+	padding: 5vh 5vw;
+	justify-content: space-around;
+}
+footer .footer_section ul
+{
+	display: flex;
+	flex-direction: column;
+}
+footer .footer_section ul h3
+{
+	font-family: 'Raleway', sans-serif;
+	color: #bdbdbd;
+	margin-bottom: 3vh;
+	font-weight: 500;
+	font-size: 0.9em;
+}
+footer .footer_section ul li
+{
+	list-style: none;
+	margin: 0.5vh 0vw;
+}
+footer .footer_section ul li a
+{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.9em;
+	transition: 0.5s;
+}
+footer .footer_section ul li a:hover
+{
+	text-decoration: underline;
+}
+footer .footer_section ul:nth-child(5)
+{
+	text-align: center;
+}
+footer .footer_section ul:nth-child(5) i
+{
+	font-size: 1.5em;
+}
+footer .footer_section ul:nth-child(5) .fa-twitter:hover
+{
+	color: #1d9bf0;
+}
+footer .footer_section ul:nth-child(5) .fa-linkedin:hover
+{
+	color: #0a66c2;
+}
+footer .footer_section ul:nth-child(5) .fa-instagram:hover
+{
+	color:  #E1306C;
+}
+footer .footer_section ul:nth-child(5) .fa-facebook:hover
+{
+	color: royalblue;
+}
+footer .footer_section ul:nth-child(5) .fa-youtube-play:hover
+{
+	color: #ed3636;
+}
